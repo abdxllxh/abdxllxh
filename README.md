@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/hero-light.svg">
-  <img alt="Muhammad Abdullah - Fullstack WebDev , AI Automation & ML Engineer" src="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/hero-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=crimson">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg?v=crimson">
+  <img alt="Muhammad Abdullah - Fullstack WebDev , AI Automation & ML Engineer" src="assets/hero-dark.svg?v=crimson" width="100%">
 </picture>
 
 <br>
@@ -15,17 +15,17 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/showcase-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/showcase-light.svg">
-  <img alt="System Architecture, Projects & Core Capabilities Showcase" src="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/showcase-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/showcase-dark.svg?v=crimson">
+  <source media="(prefers-color-scheme: light)" srcset="assets/showcase-light.svg?v=crimson">
+  <img alt="System Architecture, Projects & Core Capabilities Showcase" src="assets/showcase-dark.svg?v=crimson" width="100%">
 </picture>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/rocket-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/rocket-light.svg">
-  <img alt="Animated rocket traveling across Muhammad Abdullah's contribution map" src="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/rocket-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rocket-dark.svg?v=crimson">
+  <source media="(prefers-color-scheme: light)" srcset="assets/rocket-light.svg?v=crimson">
+  <img alt="Animated rocket traveling across Muhammad Abdullah's contribution map" src="assets/rocket-dark.svg?v=crimson" width="100%">
 </picture>
 
 <div align="center"><sub>Karachi, Pakistan · Building reliable data and AI systems</sub></div>
