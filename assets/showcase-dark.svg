@@ -8,16 +8,8 @@
     <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#161b22" stop-opacity=".95"/><stop offset="1" stop-color="#0d1117" stop-opacity=".95"/></linearGradient>
     <radialGradient id="glowOrbA"><stop stop-color="#ff7b72" stop-opacity=".18"/><stop offset="1" stop-color="#ff7b72" stop-opacity="0"/></radialGradient>
     <radialGradient id="glowOrbB"><stop stop-color="#f85149" stop-opacity=".15"/><stop offset="1" stop-color="#f85149" stop-opacity="0"/></radialGradient>
-    <filter id="boxShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#020617" flood-opacity=".4"/>
-    </filter>
-    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    
+    
     <clipPath id="mainClip"><rect x="10" y="10" width="1160" height="820" rx="30"/></clipPath>
   </defs>
   <style>
@@ -62,7 +54,7 @@
   </g>
 
   <!-- LEFT COLUMN: Core Areas & Verified Signals (Width: 440) -->
-  <g transform="translate(36, 92)" filter="url(#boxShadow)">
+  <g transform="translate(36, 92)" >
     <rect width="420" height="570" rx="20" fill="url(#cardGrad)" stroke="#30363d"/>
     
     <!-- Header -->
@@ -124,7 +116,7 @@
   </g>
 
   <!-- RIGHT COLUMN: Featured Systems Matrix (Width: 652) -->
-  <g transform="translate(480, 92)" filter="url(#boxShadow)">
+  <g transform="translate(480, 92)" >
     <rect width="664" height="570" rx="20" fill="url(#cardGrad)" stroke="#30363d"/>
 
     <text x="24" y="38" class="section-title">Selected Production Systems</text>
@@ -134,7 +126,7 @@
     <!-- Project 1: QUANTRA -->
     <g transform="translate(24, 90)">
       <rect width="616" height="84" rx="12" fill="#161b22" stroke="#30363d"/>
-      <circle cx="16" cy="22" r="4.5" fill="#ff7b72" filter="url(#neonGlow)"/>
+      <circle cx="16" cy="22" r="4.5" fill="#ff7b72" />
       <text x="28" y="26" class="proj-title">QUANTRA</text>
       <rect x="105" y="13" width="70" height="18" rx="9" fill="#21262d"/>
       <text x="140" y="26" text-anchor="middle" fill="#ff7b72" font-size="9.5" font-weight="700">ACTIVE</text>
@@ -185,14 +177,14 @@
     <!-- Client Solutions Banner -->
     <g transform="translate(24, 478)">
       <rect width="616" height="70" rx="12" fill="#161b22" stroke="#30363d"/>
-      <circle cx="20" cy="35" r="4.5" fill="#ff7b72" filter="url(#neonGlow)"/>
+      <circle cx="20" cy="35" r="4.5" fill="#ff7b72" />
       <text x="36" y="32" fill="#f8fafc" font-size="12.5" font-weight="700">AVAILABLE FOR CLIENT SOLUTIONS &amp; ENGINEERING ROLES</text>
       <text x="36" y="52" fill="#8b949e" font-size="11.5">Custom AI pipelines • Automated BI workflows • Scalable full-stack systems</text>
     </g>
   </g>
 
   <!-- BOTTOM BAR: Toolkit Matrix (Width: 1108) -->
-  <g transform="translate(36, 680)" filter="url(#boxShadow)">
+  <g transform="translate(36, 680)" >
     <rect width="1108" height="124" rx="18" fill="url(#cardGrad)" stroke="#30363d"/>
     <text x="24" y="30" class="head-label">ENGINEERING TOOLKIT // STACK</text>
     
