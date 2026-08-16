@@ -38,7 +38,7 @@
     @keyframes pulseGlow { 0%,100% { opacity:.35; transform:scale(0.95); } 50% { opacity:1; transform:scale(1.1); } }
     @keyframes scanDown { from { transform: translateY(-20px); } to { transform: translateY(800px); } }
     @keyframes pillFloat { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-2px); } }
-    @media (prefers-reduced-motion: reduce) { * { animation:none!important; } }
+    
   </style>
 
   <!-- Background -->

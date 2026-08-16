@@ -49,7 +49,7 @@
     @keyframes scan { from{transform:translateY(-160px)} to{transform:translateY(300px)} }
     @keyframes drift { from{transform:translate(0,0);opacity:.25} to{transform:translate(8px,-12px);opacity:.7} }
     @keyframes edge { to{stroke-dashoffset:-1760} }
-    @media (prefers-reduced-motion: reduce) { * { animation:none!important } .line,.role,.info{opacity:1;clip-path:none} .role-2,.role-3{display:none} }
+     .role-2,.role-3{display:none} }
   </style>
   <rect width="1180" height="610" rx="30" fill="url(#bgGradient)"/>
   <g clip-path="url(#frameClip)"><circle cx="130" cy="96" r="230" fill="url(#orbA)"/><circle cx="1060" cy="540" r="260" fill="url(#orbB)"/><circle class="particle p1" cx="51" cy="91" r="2" fill="url(#accentGradient)" opacity=".55"/>
