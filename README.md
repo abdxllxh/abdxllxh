@@ -12,15 +12,16 @@
   <a href="mailto:abdxllxh2002@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-059669?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </div>
 
-## Building useful intelligence from messy data
+## Full-Stack AI & Machine Learning Engineer | Data Intelligence & Automation
 
-I am a Computer Science graduate who works across data analytics, machine learning, document intelligence, computer vision, and automation. My favorite projects turn noisy real-world inputs into systems people can inspect, understand, and use.
+I am a Computer Science graduate and engineer building end-to-end AI applications, machine learning pipelines, and intelligent automation systems. Passionate about transforming noisy real-world data into reliable, explainable, and user-centric products.
 
-- Building end-to-end AI systems with clear, explainable outputs
-- **Working Projects & Client Work**: Developing custom AI pipelines, automated BI platforms, and computer vision systems
-- Experienced with reporting and data quality across banking, legal, automotive, and research settings
-- Google Data Analytics and Google Advanced Data Analytics certified
-- Open to data, AI/ML, and client/freelance opportunities
+- 🚀 **End-to-End AI & Full-Stack Systems**: Designing and deploying production-grade ML applications with intuitive interfaces and explainable outputs.
+- 💼 **Working Projects & Client Solutions**: Developing custom AI pipelines, automated BI platforms, document intelligence tools, and computer vision systems.
+- 🏆 **Hackathons & Competitions**: Active participant in various national and international hackathons and developer challenges hosted by **IBM**, **NVIDIA**, and **AMD**.
+- 📊 **Data Analytics & Reporting**: Experienced with data audits, statistical anomaly detection, and automated reporting across business and research settings.
+- 📜 **Certifications**: Google Data Analytics & Google Advanced Data Analytics Certified.
+- 🌐 **Open for Opportunities**: Open to AI/ML engineering roles, data analytics positions, and freelance/client projects.
 
 ## Selected work
 
