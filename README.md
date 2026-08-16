@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/hero-light.svg">
-  <img alt="Muhammad Abdullah - Junior Data Analyst and AI/ML Developer" src="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/hero-dark.svg" width="100%">
+  <img alt="Muhammad Abdullah - Fullstack WebDev , AI Automation & ML Engineer" src="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/hero-dark.svg" width="100%">
 </picture>
 
 <br>
