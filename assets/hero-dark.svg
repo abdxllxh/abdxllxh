@@ -82,8 +82,8 @@
     <rect class="cursor" x="827" y="205" width="9" height="19" rx="2" fill="#22d3ee"/>
     <g class="info i1"><text x="554" y="266" class="label">ROLE</text><text x="686" y="266" class="value">Junior Data Analyst | AI/ML Developer</text></g>
     <g class="info i2"><text x="554" y="303" class="label">LOCATION</text><text x="686" y="303" class="value">Karachi, Pakistan</text></g>
-    <g class="info i3"><text x="554" y="340" class="label">EDUCATION</text><text x="686" y="340" class="value" font-size="14">B.E. CS &amp; Engineering - Iqra University - 2025</text></g>
-    <g class="info i4"><text x="554" y="377" class="label">FOCUS</text><text x="686" y="377" class="value" font-size="14">Document intelligence, computer vision, and applied ML</text></g>
+    <g class="info i3"><text x="554" y="340" class="label">PROJECTS</text><text x="686" y="340" class="value" font-size="14">Quantra (AI Analytics), DocuMind, ProDux</text></g>
+    <g class="info i4"><text x="554" y="377" class="label">CLIENT WORK</text><text x="686" y="377" class="value" font-size="14">Custom AI pipelines, ML automation &amp; BI dashboards</text></g>
     <text x="554" y="418" class="label">TOOLKIT // SIGNALS</text>
     <g class="chip" style="animation-delay:0.00s"><rect x="562" y="438" width="98" height="34" rx="17"/><circle cx="579" cy="455" r="4"/><text x="591" y="460">Python</text></g>
 <g class="chip" style="animation-delay:0.12s"><rect x="672" y="438" width="108" height="34" rx="17"/><circle cx="689" cy="455" r="4"/><text x="701" y="460">PyTorch</text></g>
@@ -95,7 +95,7 @@
 <g class="chip" style="animation-delay:0.84s"><rect x="746" y="486" width="96" height="34" rx="17"/><circle cx="763" cy="503" r="4"/><text x="775" y="508">Docker</text></g>
 <g class="chip" style="animation-delay:0.96s"><rect x="854" y="486" width="108" height="34" rx="17"/><circle cx="871" cy="503" r="4"/><text x="883" y="508">Power BI</text></g>
 <g class="chip" style="animation-delay:1.08s"><rect x="974" y="486" width="70" height="34" rx="17"/><circle cx="991" cy="503" r="4"/><text x="1003" y="508">n8n</text></g>
-    <text x="554" y="548" fill="#94a3b8" font-size="12">abdullahdev.work</text><text x="1110" y="548" text-anchor="end" fill="#94a3b8" font-size="12">mohammadabdullah12345@live.com</text>
+    <text x="554" y="548" fill="#94a3b8" font-size="12">abdullahdev.work</text><text x="1110" y="548" text-anchor="end" fill="#94a3b8" font-size="12">abdxllxh2002@gmail.com</text>
   </g>
   <rect class="scan" x="43" y="118" width="450" height="2" fill="url(#accentGradient)" opacity=".36" filter="url(#glow)"/>
 </svg>

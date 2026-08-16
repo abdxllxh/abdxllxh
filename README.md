@@ -9,7 +9,7 @@
 <div align="center">
   <a href="https://abdullahdev.work"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white"></a>
   <a href="https://linkedin.com/in/mohammad-abdullah-25ba1721b"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:mohammadabdullah12345@live.com"><img alt="Email" src="https://img.shields.io/badge/Email-059669?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="mailto:abdxllxh2002@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-059669?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </div>
 
 ## Building useful intelligence from messy data
@@ -17,14 +17,16 @@
 I am a Computer Science graduate who works across data analytics, machine learning, document intelligence, computer vision, and automation. My favorite projects turn noisy real-world inputs into systems people can inspect, understand, and use.
 
 - Building end-to-end AI systems with clear, explainable outputs
+- **Working Projects & Client Work**: Developing custom AI pipelines, automated BI platforms, and computer vision systems
 - Experienced with reporting and data quality across banking, legal, automotive, and research settings
 - Google Data Analytics and Google Advanced Data Analytics certified
-- Open to data, AI/ML, and applied software opportunities
+- Open to data, AI/ML, and client/freelance opportunities
 
 ## Selected work
 
 | Project | What it does | Stack |
 |---|---|---|
+| [Quantra](https://github.com/abdxllxh/Quantra) | Powerful AI copilot & automated data analytics platform for structured datasets with anomaly detection, health scoring, and NLQ insights | Python, FastAPI, Next.js, TypeScript, Scikit-learn, OpenPyXL, Pandas, Docker |
 | [DOCUMIND](https://github.com/abdxllxh/Documind) | Converts complex scanned documents into structured, searchable, explainable data | Python, PyTorch, OpenCV, OCR, FAISS, FastAPI, Next.js |
 | [PRODUX](https://github.com/abdxllxh/produx) | Real-time traffic perception with detection, tracking, and movement analytics | Python, YOLOv8, OpenCV, Streamlit |
 | [WlaaS](https://github.com/abdxllxh/-weather-intelligence-as-a-service-wiaas-) | Weather intelligence with real-time ingestion and multi-agent reasoning | FastAPI, React, n8n, Docker |
@@ -32,7 +34,7 @@ I am a Computer Science graduate who works across data analytics, machine learni
 
 ## Toolkit
 
-`Python` · `SQL` · `PyTorch` · `TensorFlow` · `Scikit-learn` · `XGBoost` · `OpenCV` · `YOLOv8` · `FAISS` · `FastAPI` · `Next.js` · `React` · `Docker` · `Power BI` · `Tableau` · `n8n`
+`Python` · `SQL` · `PyTorch` · `TensorFlow` · `Scikit-learn` · `XGBoost` · `OpenCV` · `YOLOv8` · `FAISS` · `FastAPI` · `Next.js` · `TypeScript` · `React` · `Docker` · `Power BI` · `Tableau` · `n8n`
 
 <br>
 
@@ -43,3 +45,4 @@ I am a Computer Science graduate who works across data analytics, machine learni
 </picture>
 
 <div align="center"><sub>Karachi, Pakistan · Building reliable data and AI systems</sub></div>
+
