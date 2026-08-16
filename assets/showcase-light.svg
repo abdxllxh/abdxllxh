@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="840" viewBox="0 0 1180 840" role="img" aria-labelledby="showcaseTitle showcaseDesc">
+<svg shape-rendering="geometricPrecision" text-rendering="geometricPrecision" xmlns="http://www.w3.org/2000/svg" width="1180" height="840" viewBox="0 0 1180 840" role="img" aria-labelledby="showcaseTitle showcaseDesc">
   <title id="showcaseTitle">Core Capabilities and Selected Projects Showcase</title>
   <desc id="showcaseDesc">Animated architecture, core capabilities, featured AI/ML systems and production toolkit.</desc>
   <defs>
@@ -21,7 +21,7 @@
     <clipPath id="mainClip"><rect x="10" y="10" width="1160" height="820" rx="30"/></clipPath>
   </defs>
   <style>
-    text { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,monospace; }
+    text { text-rendering: geometricPrecision; -webkit-font-smoothing: antialiased; font-family: 'JetBrains Mono','SFMono-Regular',Consolas,monospace; }
     .head-label { fill:#8b949e; font-size:12px; font-weight:600; letter-spacing:1.8px; }
     .section-title { fill:#f0f6fc; font-size:18px; font-weight:700; }
     .proj-title { fill:#ff7b72; font-size:15px; font-weight:700; }

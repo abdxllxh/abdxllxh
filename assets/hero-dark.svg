@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-labelledby="title desc">
+<svg shape-rendering="geometricPrecision" text-rendering="geometricPrecision" xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-labelledby="title desc">
   <title id="title">Animated profile card for Muhammad Abdullah</title>
   <desc id="desc">Terminal-inspired introduction for a data analyst and AI machine-learning developer in Karachi.</desc>
   <defs>
@@ -9,11 +9,11 @@
     <radialGradient id="orbB"><stop stop-color="#f85149" stop-opacity=".15"/><stop offset="1" stop-color="#f85149" stop-opacity="0"/></radialGradient>
     <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#020617" flood-opacity=".35"/></filter>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="noise" x="0" y="0" width="100%" height="100%"><feTurbulence baseFrequency=".75" numOctaves="3" seed="7" type="fractalNoise"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .035"/></feComponentTransfer></filter>
+    
     <clipPath id="frameClip"><rect x="10" y="10" width="1160" height="590" rx="30"/></clipPath>
   </defs>
   <style>
-    text { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,monospace; }
+    text { text-rendering: geometricPrecision; -webkit-font-smoothing: antialiased; font-family: 'JetBrains Mono','SFMono-Regular',Consolas,monospace; }
     .label { fill:#8b949e; font-size:13px; font-weight:600; letter-spacing:1.6px; }
     .value { fill:#f0f6fc; font-size:16px; font-weight:500; }
     .ascii-cat { fill:url(#accentGradient); font-size:12.2px; font-weight:700; }
@@ -78,7 +78,7 @@
 <circle class="particle p5" cx="1058" cy="521" r="2" fill="url(#accentGradient)" opacity=".55"/>
 <circle class="particle p6" cx="28" cy="472" r="1.5" fill="url(#accentGradient)" opacity=".55"/>
 <circle class="particle p7" cx="596" cy="72" r="1.4" fill="url(#accentGradient)" opacity=".55"/>
-<circle class="particle p8" cx="750" cy="553" r="1.8" fill="url(#accentGradient)" opacity=".55"/><rect width="1180" height="610" filter="url(#noise)" opacity=".75"/></g>
+<circle class="particle p8" cx="750" cy="553" r="1.8" fill="url(#accentGradient)" opacity=".55"/></g>
   <rect x="10" y="10" width="1160" height="590" rx="30" fill="none" stroke="#30363d" stroke-width="2"/>
   <rect class="edge" x="11" y="11" width="1158" height="588" rx="29" fill="none" stroke="url(#edgeGradient)" stroke-width="2"/>
   <g filter="url(#shadow)">

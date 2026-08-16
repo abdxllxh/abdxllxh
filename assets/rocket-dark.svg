@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="300" viewBox="0 0 1180 300" role="img" aria-labelledby="title desc">
+<svg shape-rendering="geometricPrecision" text-rendering="geometricPrecision" xmlns="http://www.w3.org/2000/svg" width="1180" height="300" viewBox="0 0 1180 300" role="img" aria-labelledby="title desc">
   <title id="title">Animated rocket contribution map for Muhammad Abdullah</title>
   <desc id="desc">A rocket travels over a contribution grid showing 855 contributions from 2025-08-17 to 2026-08-16.</desc>
   <defs>
@@ -9,7 +9,7 @@
     <filter id="rShadow" x="-20%" y="-30%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#020617" flood-opacity=".32"/></filter>
   </defs>
   <style>
-    text { font-family:'JetBrains Mono','SFMono-Regular',Consolas,monospace; fill:#8b949e; font-size:11px; }
+    text { text-rendering: geometricPrecision; -webkit-font-smoothing: antialiased; font-family:'JetBrains Mono','SFMono-Regular',Consolas,monospace; fill:#8b949e; font-size:11px; }
     .cell { opacity:0; transform-box:fill-box; transform-origin:center; animation:cellIn .5s ease forwards; }
     .sweep { animation:sweep 8s ease-in-out infinite; }
     .stars circle { animation:twinkle 3s ease-in-out infinite alternate; }
