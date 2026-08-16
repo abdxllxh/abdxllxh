@@ -1,8 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=crimson">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg?v=crimson">
-  <img alt="Muhammad Abdullah - Fullstack WebDev , AI Automation & ML Engineer" src="assets/hero-dark.svg?v=crimson" width="100%">
-</picture>
+<div align="center">
+  <img src="assets/hero-dark.svg" width="100%" alt="Muhammad Abdullah - Fullstack WebDev , AI Automation & ML Engineer">
+</div>
 
 <br>
 
@@ -14,19 +12,14 @@
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/showcase-dark.svg?v=crimson">
-  <source media="(prefers-color-scheme: light)" srcset="assets/showcase-light.svg?v=crimson">
-  <img alt="System Architecture, Projects & Core Capabilities Showcase" src="assets/showcase-dark.svg?v=crimson" width="100%">
-</picture>
+<div align="center">
+  <img src="assets/showcase-dark.svg" width="100%" alt="System Architecture, Projects & Core Capabilities Showcase">
+</div>
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/rocket-dark.svg?v=crimson">
-  <source media="(prefers-color-scheme: light)" srcset="assets/rocket-light.svg?v=crimson">
-  <img alt="Animated rocket traveling across Muhammad Abdullah's contribution map" src="assets/rocket-dark.svg?v=crimson" width="100%">
-</picture>
+<div align="center">
+  <img src="assets/rocket-dark.svg" width="100%" alt="Animated rocket traveling across Muhammad Abdullah's contribution map">
+</div>
 
 <div align="center"><sub>Karachi, Pakistan · Building reliable data and AI systems</sub></div>
-

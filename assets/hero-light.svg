@@ -15,41 +15,60 @@
   <style>
     text { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,monospace; }
     .label { fill:#8b949e; font-size:13px; font-weight:600; letter-spacing:1.6px; }
-    .value { fill:#f8fafc; font-size:16px; font-weight:500; }
+    .value { fill:#f0f6fc; font-size:16px; font-weight:500; }
     .ascii-cat { fill:url(#accentGradient); font-size:12.2px; font-weight:700; }
-    .line { opacity:0; animation: reveal 8s ease infinite; }
-    .line-1 { animation-delay:.03s } .line-2 { animation-delay:.06s } .line-3 { animation-delay:.09s }
-    .line-4 { animation-delay:.12s } .line-5 { animation-delay:.15s } .line-6 { animation-delay:.18s }
-    .line-7 { animation-delay:.21s } .line-8 { animation-delay:.24s } .line-9 { animation-delay:.27s }
-    .line-10 { animation-delay:.30s } .line-11 { animation-delay:.33s } .line-12 { animation-delay:.36s }
-    .line-13 { animation-delay:.39s } .line-14 { animation-delay:.42s } .line-15 { animation-delay:.45s }
-    .line-16 { animation-delay:.48s } .line-17 { animation-delay:.51s } .line-18 { animation-delay:.54s }
-    .line-19 { animation-delay:.57s } .line-20 { animation-delay:.60s } .line-21 { animation-delay:.63s }
-    .line-22 { animation-delay:.66s } .line-23 { animation-delay:.69s } .line-24 { animation-delay:.72s }
-    .line-25 { animation-delay:.75s } .line-26 { animation-delay:.78s } .line-27 { animation-delay:.81s }
-    .line-28 { animation-delay:.84s }
-    .portrait { animation: float 6s ease-in-out infinite; transform-origin:270px 300px; }
+    .line { opacity:0; animation: reveal 8s ease-in-out infinite; }
+    .line-1 { animation-delay:.04s } .line-2 { animation-delay:.08s } .line-3 { animation-delay:.12s }
+    .line-4 { animation-delay:.16s } .line-5 { animation-delay:.20s } .line-6 { animation-delay:.24s }
+    .line-7 { animation-delay:.28s } .line-8 { animation-delay:.32s } .line-9 { animation-delay:.36s }
+    .line-10 { animation-delay:.40s } .line-11 { animation-delay:.44s } .line-12 { animation-delay:.48s }
+    .line-13 { animation-delay:.52s } .line-14 { animation-delay:.56s } .line-15 { animation-delay:.60s }
+    .line-16 { animation-delay:.64s } .line-17 { animation-delay:.68s } .line-18 { animation-delay:.72s }
+    .line-19 { animation-delay:.76s } .line-20 { animation-delay:.80s } .line-21 { animation-delay:.84s }
+    .line-22 { animation-delay:.88s } .line-23 { animation-delay:.92s } .line-24 { animation-delay:.96s }
+    .line-25 { animation-delay:1.00s } .line-26 { animation-delay:1.04s } .line-27 { animation-delay:1.08s }
     .cursor { animation: blink 1s steps(1,end) infinite; }
-    .role { opacity:0; animation: roleCycle 12s steps(16,end) infinite; clip-path:inset(0 100% 0 0); }
-    .role-2 { animation-delay:4s } .role-3 { animation-delay:8s }
-    .info { opacity:0; animation: infoReveal 9s ease infinite; }
-    .i2 { animation-delay:.18s } .i3 { animation-delay:.36s } .i4 { animation-delay:.54s }
-    .chip rect { fill:#21262d; stroke:#30363d; } .chip circle { fill:#34d399; }
-    .chip text { fill:#f8fafc; font-size:12px; font-weight:600; } .chip { animation: chipPulse 4.8s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
-    .scan { animation: scan 5s linear infinite; }
-    .particle { animation: drift 5s ease-in-out infinite alternate; }
-    .p2,.p5 { animation-delay:-1s } .p3,.p7 { animation-delay:-2.4s } .p4,.p8 { animation-delay:-3.6s }
-    .edge { stroke-dasharray:220 1600; animation: edge 7s linear infinite; }
-    @keyframes reveal { 0%,5%{opacity:0;transform:translateX(-6px)} 14%,88%{opacity:1;transform:translateX(0)} 96%,100%{opacity:0} }
-    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-9px)} }
-    @keyframes blink { 0%,48%{opacity:1} 49%,100%{opacity:0} }
-    @keyframes roleCycle { 0%{opacity:0;clip-path:inset(0 100% 0 0)} 7%,24%{opacity:1;clip-path:inset(0 0 0 0)} 29%,100%{opacity:0;clip-path:inset(0 0 0 0)} }
-    @keyframes infoReveal { 0%,10%{opacity:0;transform:translateY(8px)} 20%,90%{opacity:1;transform:translateY(0)} 100%{opacity:0} }
+    .role-1 { animation: r1 9s infinite; }
+    .role-2 { animation: r2 9s infinite; }
+    .role-3 { animation: r3 9s infinite; }
+    .info { opacity:0; animation: infoFade 8s ease-in-out infinite; }
+    .i1 { animation-delay:0.1s; } .i2 { animation-delay:0.25s; } .i3 { animation-delay:0.4s; } .i4 { animation-delay:0.55s; }
+    .chip rect { fill:#21262d; stroke:#30363d; } .chip circle { fill:#ff7b72; }
+    .chip text { fill:#f0f6fc; font-size:12px; font-weight:600; }
+    .chip { animation: chipPulse 4s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
+    .scan { animation: scanDown 5s linear infinite; }
+    .particle { animation: drift 4s ease-in-out infinite alternate; }
+    .p1 { animation-delay:0s; } .p2,.p5 { animation-delay:-1s; } .p3,.p7 { animation-delay:-2s; } .p4,.p8 { animation-delay:-3s; }
+    .edge { stroke-dasharray:220 1600; animation: edgeOrbit 7s linear infinite; }
+    @keyframes reveal {
+      0%, 8% { opacity: 0; }
+      18%, 82% { opacity: 1; }
+      92%, 100% { opacity: 0; }
+    }
+    @keyframes r1 {
+      0%, 28% { opacity: 1; }
+      33%, 100% { opacity: 0; }
+    }
+    @keyframes r2 {
+      0%, 28% { opacity: 0; }
+      33%, 61% { opacity: 1; }
+      66%, 100% { opacity: 0; }
+    }
+    @keyframes r3 {
+      0%, 61% { opacity: 0; }
+      66%, 95% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    @keyframes infoFade {
+      0%, 10% { opacity: 0; }
+      20%, 85% { opacity: 1; }
+      95%, 100% { opacity: 0; }
+    }
+    @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
     @keyframes chipPulse { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-2px)} }
-    @keyframes scan { from{transform:translateY(-160px)} to{transform:translateY(300px)} }
-    @keyframes drift { from{transform:translate(0,0);opacity:.25} to{transform:translate(8px,-12px);opacity:.7} }
-    @keyframes edge { to{stroke-dashoffset:-1760} }
-     .role-2,.role-3{display:none} }
+    @keyframes scanDown { from{transform:translateY(-20px)} to{transform:translateY(330px)} }
+    @keyframes drift { from{transform:translate(0,0);opacity:.25} to{transform:translate(6px,-8px);opacity:.75} }
+    @keyframes edgeOrbit { to{stroke-dashoffset:-1820} }
   </style>
   <rect width="1180" height="610" rx="30" fill="url(#bgGradient)"/>
   <g clip-path="url(#frameClip)"><circle cx="130" cy="96" r="230" fill="url(#orbA)"/><circle cx="1060" cy="540" r="260" fill="url(#orbB)"/><circle class="particle p1" cx="51" cy="91" r="2" fill="url(#accentGradient)" opacity=".55"/>
