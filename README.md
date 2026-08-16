@@ -16,7 +16,7 @@
 
 Computer Science graduate focused on building production-ready AI systems, machine learning pipelines, intelligent automation, and full-stack applications.
 
-I work across the complete development lifecycle—from data processing and model development to APIs, automation, deployment, and modern web interfaces.
+I work across the complete development lifecycle - from data processing and model development to APIs, automation, deployment, and modern web interfaces.
 
 ### Core Areas
 - **AI/ML pipelines** and predictive systems
@@ -25,8 +25,8 @@ I work across the complete development lifecycle—from data processing and mode
 - **Full-stack AI applications** and API development
 - **MLOps, Docker, CI/CD**, and model deployment
 
-- 🏆 **Hackathons**: Participant in developer challenges and hackathons associated with **IBM**, **NVIDIA**, and **AMD**.
-- 📜 **Certifications**: Certified in **Google Data Analytics** and **Google Advanced Data Analytics & AI Automation**.
+- **Hackathons**: Participant in developer challenges and hackathons associated with **IBM**, **NVIDIA**, and **AMD**.
+- **Certifications**: Certified in **Google Data Analytics** and **Google Advanced Data Analytics & AI Automation**.
 
 > *I build systems that are practical, explainable, scalable, and designed to solve real-world problems.*
 
