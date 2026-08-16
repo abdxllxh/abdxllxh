@@ -16,7 +16,7 @@
     text { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,monospace; }
     .label { fill:#475569; font-size:13px; font-weight:600; letter-spacing:1.6px; }
     .value { fill:#0f172a; font-size:16px; font-weight:500; }
-    .ascii-cat { fill:url(#accentGradient); font-size:10.8px; font-weight:600; filter:url(#glow); }
+    .ascii-cat { fill:url(#accentGradient); font-size:12px; font-weight:700; }
     .line { opacity:0; animation: reveal 8s ease infinite; }
     .line-1 { animation-delay:.05s } .line-2 { animation-delay:.10s } .line-3 { animation-delay:.15s }
     .line-4 { animation-delay:.20s } .line-5 { animation-delay:.25s } .line-6 { animation-delay:.30s }
@@ -24,8 +24,7 @@
     .line-10 { animation-delay:.50s } .line-11 { animation-delay:.55s } .line-12 { animation-delay:.60s }
     .line-13 { animation-delay:.65s } .line-14 { animation-delay:.70s } .line-15 { animation-delay:.75s }
     .line-16 { animation-delay:.80s } .line-17 { animation-delay:.85s } .line-18 { animation-delay:.90s }
-    .line-19 { animation-delay:.95s } .line-20 { animation-delay:1.00s } .line-21 { animation-delay:1.05s }
-    .line-22 { animation-delay:1.10s } .line-23 { animation-delay:1.15s } .line-24 { animation-delay:1.20s }
+    .line-19 { animation-delay:.95s } .line-20 { animation-delay:1.00s }
     .portrait { animation: float 6s ease-in-out infinite; transform-origin:270px 300px; }
     .cursor { animation: blink 1s steps(1,end) infinite; }
     .role { opacity:0; animation: roleCycle 12s steps(16,end) infinite; clip-path:inset(0 100% 0 0); }
@@ -70,30 +69,26 @@
     <text x="68" y="132" fill="#059669" font-size="13">abdxllxh@github</text><text x="190" y="132" fill="#475569" font-size="13">:</text><text x="200" y="132" fill="#0284c7" font-size="13">~</text><text x="212" y="132" fill="#0f172a" font-size="13">$ ./portrait.sh</text>
     
     <g>
-      <text x="60" y="158.0" class="ascii-cat line line-1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="170.0" class="ascii-cat line line-2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.:==:&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="182.0" class="ascii-cat line line-3">&#160;&#160;&#160;&#160;&#160;&#160;:##+.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.-+*%=-.&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="194.0" class="ascii-cat line line-4">&#160;.&#160;&#160;&#160;&#160;=@##%:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-+*%#%=:&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="206.0" class="ascii-cat line line-5">&#160;..&#160;.&#160;=@####=&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.++*%#%*+-&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="218.0" class="ascii-cat line line-6">..&#160;&#160;.&#160;:#@#%*=-..&#160;&#160;&#160;...&#160;..&#160;&#160;.--=*%%%%*:&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="230.0" class="ascii-cat line line-7">*=-&#160;..&#160;*W#*+=++=%%=*+==+=%*====+%%##*.&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="242.0" class="ascii-cat line line-8">..:.&#160;&#160;&#160;-#%%%WW=-@@***=+=*@@.+W@**%%%:&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="254.0" class="ascii-cat line line-9">&#160;&#160;&#160;&#160;&#160;&#160;&#160;-%=::-=%@@##@#%%%*#@#%+=--**=.&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="266.0" class="ascii-cat line line-10">&#160;&#160;.&#160;&#160;&#160;-%%..&#160;&#160;&#160;&#160;-@@##***##W#-&#160;&#160;&#160;&#160;&#160;-#+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="278.0" class="ascii-cat line line-11">&#160;&#160;=:&#160;:+#@**-::=&#160;+@##%*%@@@.=-&#160;&#160;.+%@#:&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="290.0" class="ascii-cat line line-12">.&#160;-:.+***%%#@@%-+%@@WWW@#=:=@#%%#%+==&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="302.0" class="ascii-cat line line-13">..&#160;.+#=--=***%*%%-+*%%%*=+#*%#%*+==*#=&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="314.0" class="ascii-cat line line-14">&#160;&#160;&#160;-**+=:+%**%@W#-..++-.-%W@#%*%=:+=++.&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="326.0" class="ascii-cat line line-15">&#160;&#160;&#160;&#160;#@##%*%%##@@WW@-&#160;&#160;:#WW@@#%***%#%*=&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="338.0" class="ascii-cat line line-16">&#160;...*@@@@####@@WW@@@:-@WWWW@@#####%#@-&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="350.0" class="ascii-cat line line-17">..::+%##@@@%**%###%#**%%##%*%#@W@@WW*:--:.:.</text>
-      <text x="60" y="362.0" class="ascii-cat line line-18">-==*W#%@###%%****%%#####%%%#@@@@@@@%=--=-:-:</text>
-      <text x="60" y="374.0" class="ascii-cat line line-19">++=@W@%%@WW@@@@##%%%+=%*@@WW@@@@@@#+:---=-&#160;&#160;</text>
-      <text x="60" y="386.0" class="ascii-cat line line-20">-=**#@#**#@@WWWWWW##W##WWW@@WWWW@*=-=+:&#160;.::.</text>
-      <text x="60" y="398.0" class="ascii-cat line line-21">+%@#+%@W@%%%%#@@@%*@@@%@@W@@###+=:=**+:&#160;&#160;&#160;&#160;.</text>
-      <text x="60" y="410.0" class="ascii-cat line line-22">WW*#*--+*##*+=+%%*##@#*%%*+==:-+*%##*:&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="422.0" class="ascii-cat line line-23">%*:.==:&#160;&#160;::-=++=+*%***+***++**%%@#*-..=.&#160;&#160;&#160;&#160;</text>
-      <text x="60" y="434.0" class="ascii-cat line line-24">-:&#160;&#160;&#160;::-:.&#160;&#160;.&#160;&#160;..-==+*--+***+++-+-:---:&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="160.0" text-anchor="middle" class="ascii-cat line line-1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="174.0" text-anchor="middle" class="ascii-cat line line-2">&#160;&#160;&#160;&#160;&#160;&#160;--&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.-+=.&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="188.0" text-anchor="middle" class="ascii-cat line line-3">&#160;&#160;&#160;&#160;&#160;&#160;%#*.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-+*%=.&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="202.0" text-anchor="middle" class="ascii-cat line line-4">&#160;&#160;.&#160;&#160;:%#%%-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:=*%%*=.&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="216.0" text-anchor="middle" class="ascii-cat line line-5">&#160;=..&#160;..*#%*=:..&#160;......&#160;.-=*%**+&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="230.0" text-anchor="middle" class="ascii-cat line line-6">&#160;*=-..&#160;=#%++*-*%=+-==**-=++*%%=&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="244.0" text-anchor="middle" class="ascii-cat line line-7">&#160;.&#160;&#160;&#160;&#160;&#160;.%*+%#=%#**+++%#=##+**+.&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="258.0" text-anchor="middle" class="ascii-cat line line-8">&#160;:&#160;&#160;&#160;&#160;&#160;=*.&#160;&#160;.=##%%***%#=:.&#160;.*-&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="272.0" text-anchor="middle" class="ascii-cat line line-9">&#160;-&#160;::&#160;-%%+-&#160;..-##%+*##-:&#160;&#160;.-#%.&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="286.0" text-anchor="middle" class="ascii-cat line line-10">&#160;:&#160;:::++***%#+=*##@##+.+%**%*+-&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="300.0" text-anchor="middle" class="ascii-cat line line-11">&#160;:..:*+-:+**%%%-=*%*-=%*%%+=-=*:&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="314.0" text-anchor="middle" class="ascii-cat line line-12">&#160;&#160;&#160;:**+=+**%@#+::-.=*@#*+*-++=:&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="328.0" text-anchor="middle" class="ascii-cat line line-13">&#160;&#160;&#160;&#160;%##%*%###@@#:.*@@@#%%*%%%%.&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="342.0" text-anchor="middle" class="ascii-cat line line-14">&#160;..:+%###%**%#%%*+%%#%%%#####+::..&#160;.</text>
+      <text x="268" y="356.0" text-anchor="middle" class="ascii-cat line line-15">&#160;:--*#%%%#%*++***%%%***%#####%--=-:::</text>
+      <text x="268" y="370.0" text-anchor="middle" class="ascii-cat line line-16">&#160;===%@%*%@####%%**+*%#@@##@#%=:-:-:&#160;&#160;</text>
+      <text x="268" y="384.0" text-anchor="middle" class="ascii-cat line line-17">&#160;--***#%%%##@@@@%@#%@@@@@@#*--+=&#160;.:..</text>
+      <text x="268" y="398.0" text-anchor="middle" class="ascii-cat line line-18">&#160;%##%++%#%*++*%+%##*%%**+===+%+:&#160;&#160;&#160;&#160;.</text>
+      <text x="268" y="412.0" text-anchor="middle" class="ascii-cat line line-19">&#160;##=-+:..====++*%**+*+=-=+*#%+::.&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="426.0" text-anchor="middle" class="ascii-cat line line-20">&#160;--::==--++=***%%%#%***==+***+-.&#160;&#160;&#160;&#160;&#160;</text>
     </g>
 
     <rect x="77" y="458" width="373" height="48" rx="14" fill="#f1f5f9" stroke="#dbe3ef"/>
