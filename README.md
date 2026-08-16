@@ -1,16 +1,45 @@
-## Hi there 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/hero-light.svg">
+  <img alt="Muhammad Abdullah - Junior Data Analyst and AI/ML Developer" src="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/hero-dark.svg" width="100%">
+</picture>
 
-<!--
-**abdxllxh/abdxllxh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br>
 
-Here are some ideas to get you started:
+<div align="center">
+  <a href="https://abdullahdev.work"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://linkedin.com/in/mohammad-abdullah-25ba1721b"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:mohammadabdullah12345@live.com"><img alt="Email" src="https://img.shields.io/badge/Email-059669?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Building useful intelligence from messy data
+
+I am a Computer Science graduate who works across data analytics, machine learning, document intelligence, computer vision, and automation. My favorite projects turn noisy real-world inputs into systems people can inspect, understand, and use.
+
+- Building end-to-end AI systems with clear, explainable outputs
+- Experienced with reporting and data quality across banking, legal, automotive, and research settings
+- Google Data Analytics and Google Advanced Data Analytics certified
+- Open to data, AI/ML, and applied software opportunities
+
+## Selected work
+
+| Project | What it does | Stack |
+|---|---|---|
+| [DOCUMIND](https://github.com/abdxllxh/Documind) | Converts complex scanned documents into structured, searchable, explainable data | Python, PyTorch, OpenCV, OCR, FAISS, FastAPI, Next.js |
+| [PRODUX](https://github.com/abdxllxh/produx) | Real-time traffic perception with detection, tracking, and movement analytics | Python, YOLOv8, OpenCV, Streamlit |
+| [WlaaS](https://github.com/abdxllxh/-weather-intelligence-as-a-service-wiaas-) | Weather intelligence with real-time ingestion and multi-agent reasoning | FastAPI, React, n8n, Docker |
+| [Customer Churn Predictor](https://github.com/abdxllxh/Customer-Churn-Predictor) | Customer-risk forecasting for practical churn analysis | Scikit-learn, XGBoost, Python |
+
+## Toolkit
+
+`Python` · `SQL` · `PyTorch` · `TensorFlow` · `Scikit-learn` · `XGBoost` · `OpenCV` · `YOLOv8` · `FAISS` · `FastAPI` · `Next.js` · `React` · `Docker` · `Power BI` · `Tableau` · `n8n`
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/rocket-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/rocket-light.svg">
+  <img alt="Animated rocket traveling across Muhammad Abdullah's contribution map" src="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/rocket-dark.svg" width="100%">
+</picture>
+
+<div align="center"><sub>Karachi, Pakistan · Building reliable data and AI systems</sub></div>
