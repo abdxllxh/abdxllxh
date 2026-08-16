@@ -22,8 +22,6 @@
 
 <br>
 
-<br>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/rocket-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abdxllxh/abdxllxh/main/assets/rocket-light.svg">
