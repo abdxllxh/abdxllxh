@@ -16,15 +16,17 @@
     text { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,monospace; }
     .label { fill:#475569; font-size:13px; font-weight:600; letter-spacing:1.6px; }
     .value { fill:#0f172a; font-size:16px; font-weight:500; }
-    .ascii-cat { fill:url(#accentGradient); font-size:12px; font-weight:700; }
+    .ascii-cat { fill:url(#accentGradient); font-size:10.2px; font-weight:700; }
     .line { opacity:0; animation: reveal 8s ease infinite; }
-    .line-1 { animation-delay:.05s } .line-2 { animation-delay:.10s } .line-3 { animation-delay:.15s }
-    .line-4 { animation-delay:.20s } .line-5 { animation-delay:.25s } .line-6 { animation-delay:.30s }
-    .line-7 { animation-delay:.35s } .line-8 { animation-delay:.40s } .line-9 { animation-delay:.45s }
-    .line-10 { animation-delay:.50s } .line-11 { animation-delay:.55s } .line-12 { animation-delay:.60s }
-    .line-13 { animation-delay:.65s } .line-14 { animation-delay:.70s } .line-15 { animation-delay:.75s }
-    .line-16 { animation-delay:.80s } .line-17 { animation-delay:.85s } .line-18 { animation-delay:.90s }
-    .line-19 { animation-delay:.95s } .line-20 { animation-delay:1.00s }
+    .line-1 { animation-delay:.04s } .line-2 { animation-delay:.08s } .line-3 { animation-delay:.12s }
+    .line-4 { animation-delay:.16s } .line-5 { animation-delay:.20s } .line-6 { animation-delay:.24s }
+    .line-7 { animation-delay:.28s } .line-8 { animation-delay:.32s } .line-9 { animation-delay:.36s }
+    .line-10 { animation-delay:.40s } .line-11 { animation-delay:.44s } .line-12 { animation-delay:.48s }
+    .line-13 { animation-delay:.52s } .line-14 { animation-delay:.56s } .line-15 { animation-delay:.60s }
+    .line-16 { animation-delay:.64s } .line-17 { animation-delay:.68s } .line-18 { animation-delay:.72s }
+    .line-19 { animation-delay:.76s } .line-20 { animation-delay:.80s } .line-21 { animation-delay:.84s }
+    .line-22 { animation-delay:.88s } .line-23 { animation-delay:.92s } .line-24 { animation-delay:.96s }
+    .line-25 { animation-delay:1.00s }
     .portrait { animation: float 6s ease-in-out infinite; transform-origin:270px 300px; }
     .cursor { animation: blink 1s steps(1,end) infinite; }
     .role { opacity:0; animation: roleCycle 12s steps(16,end) infinite; clip-path:inset(0 100% 0 0); }
@@ -69,26 +71,31 @@
     <text x="68" y="132" fill="#059669" font-size="13">abdxllxh@github</text><text x="190" y="132" fill="#475569" font-size="13">:</text><text x="200" y="132" fill="#0284c7" font-size="13">~</text><text x="212" y="132" fill="#0f172a" font-size="13">$ ./portrait.sh</text>
     
     <g>
-      <text x="268" y="160.0" text-anchor="middle" class="ascii-cat line line-1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="174.0" text-anchor="middle" class="ascii-cat line line-2">&#160;&#160;&#160;&#160;&#160;&#160;--&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.-+=.&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="188.0" text-anchor="middle" class="ascii-cat line line-3">&#160;&#160;&#160;&#160;&#160;&#160;%#*.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-+*%=.&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="202.0" text-anchor="middle" class="ascii-cat line line-4">&#160;&#160;.&#160;&#160;:%#%%-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:=*%%*=.&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="216.0" text-anchor="middle" class="ascii-cat line line-5">&#160;=..&#160;..*#%*=:..&#160;......&#160;.-=*%**+&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="230.0" text-anchor="middle" class="ascii-cat line line-6">&#160;*=-..&#160;=#%++*-*%=+-==**-=++*%%=&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="244.0" text-anchor="middle" class="ascii-cat line line-7">&#160;.&#160;&#160;&#160;&#160;&#160;.%*+%#=%#**+++%#=##+**+.&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="258.0" text-anchor="middle" class="ascii-cat line line-8">&#160;:&#160;&#160;&#160;&#160;&#160;=*.&#160;&#160;.=##%%***%#=:.&#160;.*-&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="272.0" text-anchor="middle" class="ascii-cat line line-9">&#160;-&#160;::&#160;-%%+-&#160;..-##%+*##-:&#160;&#160;.-#%.&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="286.0" text-anchor="middle" class="ascii-cat line line-10">&#160;:&#160;:::++***%#+=*##@##+.+%**%*+-&#160;&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="300.0" text-anchor="middle" class="ascii-cat line line-11">&#160;:..:*+-:+**%%%-=*%*-=%*%%+=-=*:&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="314.0" text-anchor="middle" class="ascii-cat line line-12">&#160;&#160;&#160;:**+=+**%@#+::-.=*@#*+*-++=:&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="328.0" text-anchor="middle" class="ascii-cat line line-13">&#160;&#160;&#160;&#160;%##%*%###@@#:.*@@@#%%*%%%%.&#160;&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="342.0" text-anchor="middle" class="ascii-cat line line-14">&#160;..:+%###%**%#%%*+%%#%%%#####+::..&#160;.</text>
-      <text x="268" y="356.0" text-anchor="middle" class="ascii-cat line line-15">&#160;:--*#%%%#%*++***%%%***%#####%--=-:::</text>
-      <text x="268" y="370.0" text-anchor="middle" class="ascii-cat line line-16">&#160;===%@%*%@####%%**+*%#@@##@#%=:-:-:&#160;&#160;</text>
-      <text x="268" y="384.0" text-anchor="middle" class="ascii-cat line line-17">&#160;--***#%%%##@@@@%@#%@@@@@@#*--+=&#160;.:..</text>
-      <text x="268" y="398.0" text-anchor="middle" class="ascii-cat line line-18">&#160;%##%++%#%*++*%+%##*%%**+===+%+:&#160;&#160;&#160;&#160;.</text>
-      <text x="268" y="412.0" text-anchor="middle" class="ascii-cat line line-19">&#160;##=-+:..====++*%**+*+=-=+*#%+::.&#160;&#160;&#160;&#160;</text>
-      <text x="268" y="426.0" text-anchor="middle" class="ascii-cat line line-20">&#160;--::==--++=***%%%#%***==+***+-.&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="152.0" text-anchor="middle" class="ascii-cat line line-1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.#@.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="163.5" text-anchor="middle" class="ascii-cat line line-2">.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;MM%&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;=*@M==&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="175.0" text-anchor="middle" class="ascii-cat line line-3">-&#160;&#160;:&#160;&#160;&#160;&#160;-MMMM&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.@@WMM+:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="186.5" text-anchor="middle" class="ascii-cat line line-4">-&#160;&#160;:&#160;&#160;&#160;&#160;*MMMMM=&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;%%@MMM#*+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="198.0" text-anchor="middle" class="ascii-cat line line-5">=*&#160;&#160;&#160;&#160;&#160;&#160;&#160;MMWW*@.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;==+@WW%%@:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="209.5" text-anchor="middle" class="ascii-cat line line-6">MMM@=&#160;.&#160;&#160;MMM%=&#160;-%+#W-M%%=W+@-+=&#160;.+##WMM&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="221.0" text-anchor="middle" class="ascii-cat line line-7">&#160;M+&#160;#.&#160;&#160;&#160;-MM%#MM.&#160;MM=+*&#160;*:#MM&#160;-MM+#WMM:&#160;&#160;&#160;.&#160;&#160;&#160;&#160;.</text>
+      <text x="268" y="232.5" text-anchor="middle" class="ascii-cat line line-8">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;MW*@MMM#M@WMM+@#*@M:MMMW%W*@&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</text>
+      <text x="268" y="244.0" text-anchor="middle" class="ascii-cat line line-9">&#160;:&#160;&#160;&#160;&#160;&#160;&#160;&#160;=M&#160;&#160;&#160;&#160;&#160;&#160;MMM@MWWWW=MMM&#160;&#160;&#160;&#160;&#160;+@&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="255.5" text-anchor="middle" class="ascii-cat line line-10">&#160;M&#160;&#160;+.&#160;&#160;%MM&#160;&#160;&#160;&#160;&#160;&#160;&#160;MMMW:&#160;-MMM*&#160;&#160;&#160;&#160;&#160;&#160;&#160;MM&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="267.0" text-anchor="middle" class="ascii-cat line line-11">.%&#160;&#160;@+&#160;.=MMMM@-+M&#160;&#160;MMMM@WMMM&#160;-+&#160;&#160;&#160;WMMM:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="278.5" text-anchor="middle" class="ascii-cat line line-12">.*&#160;&#160;-:&#160;W@+*%@MMMW&#160;=+MMMMMM@&#160;&#160;&#160;MMMMMW..*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</text>
+      <text x="268" y="290.0" text-anchor="middle" class="ascii-cat line line-13">:=-:&#160;&#160;@M.&#160;&#160;&#160;#*-%%M*&#160;&#160;+#@%=&#160;-M+*W%=&#160;..@M@&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="301.5" text-anchor="middle" class="ascii-cat line line-14">&#160;&#160;&#160;&#160;&#160;=@*=&#160;&#160;:%-=%MMM&#160;&#160;&#160;+*&#160;&#160;&#160;@MMM%=@&#160;&#160;=.*@&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="313.0" text-anchor="middle" class="ascii-cat line line-15">&#160;&#160;&#160;&#160;&#160;&#160;MMMM%:*WWWMMMMM&#160;&#160;&#160;&#160;MMMMM%+*==#MM*=&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="324.5" text-anchor="middle" class="ascii-cat line line-16">&#160;&#160;&#160;&#160;&#160;&#160;@MMMM@@MMMMMMMMM&#160;&#160;MMMMMMMWW##%*WM-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="336.0" text-anchor="middle" class="ascii-cat line line-17">&#160;&#160;&#160;&#160;&#160;&#160;:@MMMMM%+=*WMW##..*%MM#++#MMMMMMM&#160;..&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="347.5" text-anchor="middle" class="ascii-cat line line-18">&#160;&#160;.::=MW=**%%-.&#160;&#160;.=*@MMMMW-:&#160;.#MMMMMMM+.+#++M+%%</text>
+      <text x="268" y="359.0" text-anchor="middle" class="ascii-cat line line-19">##@#=MMM%MMMM@@++-:.&#160;:&#160;&#160;-.##MMMMWW@MM*&#160;:+*=.&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="370.5" text-anchor="middle" class="ascii-cat line line-20">*+:.:@MM+&#160;+MMMMMMMMMMMM=MWMMMMMMMMMM*.&#160;=:&#160;*#:&#160;&#160;+</text>
+      <text x="268" y="382.0" text-anchor="middle" class="ascii-cat line line-21">&#160;&#160;&#160;.W++MMM%+@MMMMMMM%MMM%MMMMMMMMM@&#160;&#160;&#160;%M.&#160;&#160;:-:&#160;=</text>
+      <text x="268" y="393.5" text-anchor="middle" class="ascii-cat line line-22">=*WMMM=+MMMM@*=%@MM-:MMM=MMMMM**=&#160;&#160;&#160;+MM+&#160;&#160;&#160;&#160;&#160;:==</text>
+      <text x="268" y="405.0" text-anchor="middle" class="ascii-cat line line-23">MMMM-@W&#160;&#160;&#160;=MM@=:-**+MWM@=%*-&#160;&#160;&#160;&#160;&#160;+WMMM%&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="416.5" text-anchor="middle" class="ascii-cat line line-24">-W@*&#160;&#160;-+&#160;&#160;&#160;&#160;&#160;&#160;-#*==%%++*&#160;%#***%WMMMM#&#160;&#160;&#160;M.&#160;&#160;&#160;&#160;&#160;&#160;</text>
+      <text x="268" y="428.0" text-anchor="middle" class="ascii-cat line line-25">-.&#160;&#160;&#160;&#160;&#160;&#160;:+-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:&#160;=*&#160;&#160;:**+=:+&#160;=&#160;&#160;.=*.&#160;&#160;&#160;&#160;.&#160;.</text>
     </g>
 
     <rect x="77" y="458" width="373" height="48" rx="14" fill="#f1f5f9" stroke="#dbe3ef"/>
