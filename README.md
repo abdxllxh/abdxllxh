@@ -12,16 +12,23 @@
   <a href="mailto:abdxllxh2002@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-059669?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </div>
 
-## Full-Stack AI & Machine Learning Engineer | Data Intelligence & Automation
+## Full-Stack AI & Machine Learning Engineer | Data Intelligence | Automation
 
-I am a Computer Science graduate and engineer building end-to-end AI applications, machine learning pipelines, and intelligent automation systems. Passionate about transforming noisy real-world data into reliable, explainable, and user-centric products.
+Computer Science graduate focused on building production-ready AI systems, machine learning pipelines, intelligent automation, and full-stack applications.
 
-- 🚀 **End-to-End AI & Full-Stack Systems**: Designing and deploying production-grade ML applications with intuitive interfaces and explainable outputs.
-- 💼 **Working Projects & Client Solutions**: Developing custom AI pipelines, automated BI platforms, document intelligence tools, and computer vision systems.
-- 🏆 **Hackathons & Competitions**: Active participant in various national and international hackathons and developer challenges hosted by **IBM**, **NVIDIA**, and **AMD**.
-- 📊 **Data Analytics & Reporting**: Experienced with data audits, statistical anomaly detection, and automated reporting across business and research settings.
-- 📜 **Certifications**: Google Data Analytics & Google Advanced Data Analytics Certified.
-- 🌐 **Open for Opportunities**: Open to AI/ML engineering roles, data analytics positions, and freelance/client projects.
+I work across the complete development lifecycle—from data processing and model development to APIs, automation, deployment, and modern web interfaces.
+
+### Core Areas
+- **AI/ML pipelines** and predictive systems
+- **AI agents, RAG**, and workflow automation
+- **Data analytics**, anomaly detection, and automated reporting
+- **Full-stack AI applications** and API development
+- **MLOps, Docker, CI/CD**, and model deployment
+
+- 🏆 **Hackathons**: Participant in developer challenges and hackathons associated with **IBM**, **NVIDIA**, and **AMD**.
+- 📜 **Certifications**: Certified in **Google Data Analytics** and **Google Advanced Data Analytics & AI Automation**.
+
+> *I build systems that are practical, explainable, scalable, and designed to solve real-world problems.*
 
 ## Selected work
 
