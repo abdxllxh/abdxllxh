@@ -2,11 +2,11 @@
   <title id="title">Animated profile card for Muhammad Abdullah</title>
   <desc id="desc">Terminal-inspired introduction for a data analyst and AI machine-learning developer in Karachi.</desc>
   <defs>
-    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030712"/><stop offset=".5" stop-color="#0f172a"/><stop offset="1" stop-color="#030712"/></linearGradient>
-    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b5cf6"/><stop offset=".48" stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399"/></linearGradient>
-    <linearGradient id="edgeGradient" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8b5cf6" stop-opacity=".2"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399" stop-opacity=".2"/></linearGradient>
-    <radialGradient id="orbA"><stop stop-color="#8b5cf6" stop-opacity=".26"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
-    <radialGradient id="orbB"><stop stop-color="#22d3ee" stop-opacity=".22"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset=".5" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffa198"/><stop offset=".5" stop-color="#ff7b72"/><stop offset="1" stop-color="#f85149"/></linearGradient>
+    <linearGradient id="edgeGradient" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff7b72" stop-opacity=".2"/><stop offset=".5" stop-color="#f85149"/><stop offset="1" stop-color="#ffa198" stop-opacity=".2"/></linearGradient>
+    <radialGradient id="orbA"><stop stop-color="#ff7b72" stop-opacity=".18"/><stop offset="1" stop-color="#ff7b72" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orbB"><stop stop-color="#f85149" stop-opacity=".15"/><stop offset="1" stop-color="#f85149" stop-opacity="0"/></radialGradient>
     <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#020617" flood-opacity=".35"/></filter>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <filter id="noise" x="0" y="0" width="100%" height="100%"><feTurbulence baseFrequency=".75" numOctaves="3" seed="7" type="fractalNoise"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .035"/></feComponentTransfer></filter>
@@ -14,7 +14,7 @@
   </defs>
   <style>
     text { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,monospace; }
-    .label { fill:#94a3b8; font-size:13px; font-weight:600; letter-spacing:1.6px; }
+    .label { fill:#8b949e; font-size:13px; font-weight:600; letter-spacing:1.6px; }
     .value { fill:#f8fafc; font-size:16px; font-weight:500; }
     .ascii-cat { fill:url(#accentGradient); font-size:12.2px; font-weight:700; }
     .line { opacity:0; animation: reveal 8s ease infinite; }
@@ -34,7 +34,7 @@
     .role-2 { animation-delay:4s } .role-3 { animation-delay:8s }
     .info { opacity:0; animation: infoReveal 9s ease infinite; }
     .i2 { animation-delay:.18s } .i3 { animation-delay:.36s } .i4 { animation-delay:.54s }
-    .chip rect { fill:#111b2e; stroke:#26334a; } .chip circle { fill:#34d399; }
+    .chip rect { fill:#21262d; stroke:#30363d; } .chip circle { fill:#34d399; }
     .chip text { fill:#f8fafc; font-size:12px; font-weight:600; } .chip { animation: chipPulse 4.8s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
     .scan { animation: scan 5s linear infinite; }
     .particle { animation: drift 5s ease-in-out infinite alternate; }
@@ -60,15 +60,15 @@
 <circle class="particle p6" cx="28" cy="472" r="1.5" fill="url(#accentGradient)" opacity=".55"/>
 <circle class="particle p7" cx="596" cy="72" r="1.4" fill="url(#accentGradient)" opacity=".55"/>
 <circle class="particle p8" cx="750" cy="553" r="1.8" fill="url(#accentGradient)" opacity=".55"/><rect width="1180" height="610" filter="url(#noise)" opacity=".75"/></g>
-  <rect x="10" y="10" width="1160" height="590" rx="30" fill="none" stroke="#26334a" stroke-width="2"/>
+  <rect x="10" y="10" width="1160" height="590" rx="30" fill="none" stroke="#30363d" stroke-width="2"/>
   <rect class="edge" x="11" y="11" width="1158" height="588" rx="29" fill="none" stroke="url(#edgeGradient)" stroke-width="2"/>
   <g filter="url(#shadow)">
-    <rect x="42" y="42" width="452" height="526" rx="24" fill="#0b1220" fill-opacity=".9" stroke="#26334a"/>
-    <rect x="518" y="42" width="620" height="526" rx="24" fill="#0b1220" fill-opacity=".92" stroke="#26334a"/>
+    <rect x="42" y="42" width="452" height="526" rx="24" fill="#161b22" fill-opacity=".9" stroke="#30363d"/>
+    <rect x="518" y="42" width="620" height="526" rx="24" fill="#161b22" fill-opacity=".92" stroke="#30363d"/>
   </g>
   <g class="portrait">
-    <circle cx="68" cy="75" r="6" fill="#fb7185"/><circle cx="90" cy="75" r="6" fill="#fbbf24"/><circle cx="112" cy="75" r="6" fill="#34d399"/><text x="468" y="81" text-anchor="end" fill="#94a3b8" font-size="12">portrait.sh</text>
-    <line x1="60" y1="86" x2="474" y2="86" stroke="#26334a"/>
+    <circle cx="68" cy="75" r="6" fill="#fb7185"/><circle cx="90" cy="75" r="6" fill="#fbbf24"/><circle cx="112" cy="75" r="6" fill="#ff7b72"/><text x="468" y="81" text-anchor="end" fill="#8b949e" font-size="12">portrait.sh</text>
+    <line x1="60" y1="86" x2="474" y2="86" stroke="#30363d"/>
     
     <g>
     <text x="268" y="124.0" text-anchor="middle" class="ascii-cat line line-1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
@@ -100,19 +100,19 @@
     <text x="268" y="430.8" text-anchor="middle" class="ascii-cat line line-27">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:+*-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..=*%.&#160;&#160;:-.&#160;=&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
     </g>
 
-    <rect x="77" y="458" width="373" height="48" rx="14" fill="#0f172a" stroke="#26334a"/>
-    <circle cx="100" cy="482" r="5" fill="#34d399" filter="url(#glow)"/><text x="116" y="487" fill="#f8fafc" font-size="13.5">available for ambitious builds</text>
-    <text x="78" y="536" fill="#94a3b8" font-size="12">Karachi  •  UTC+05:00  •  build_2026.08</text>
+    <rect x="77" y="458" width="373" height="48" rx="14" fill="#161b22" stroke="#30363d"/>
+    <circle cx="100" cy="482" r="5" fill="#ff7b72" filter="url(#glow)"/><text x="116" y="487" fill="#f8fafc" font-size="13.5">available for ambitious builds</text>
+    <text x="78" y="536" fill="#8b949e" font-size="12">Karachi  •  UTC+05:00  •  build_2026.08</text>
   </g>
   <g>
-    <circle cx="550" cy="75" r="6" fill="#fb7185"/><circle cx="572" cy="75" r="6" fill="#fbbf24"/><circle cx="594" cy="75" r="6" fill="#34d399"/><text x="1084" y="81" text-anchor="end" fill="#94a3b8" font-size="12">profile.sh</text>
-    <line x1="543" y1="101" x2="1114" y2="101" stroke="#26334a"/>
-    <text x="554" y="140" fill="#34d399" font-size="14">muhammad@github</text><text x="694" y="140" fill="#94a3b8" font-size="14">:</text><text x="707" y="140" fill="#22d3ee" font-size="14">~</text><text x="722" y="140" fill="#f8fafc" font-size="14">$ whoami</text>
+    <circle cx="550" cy="75" r="6" fill="#fb7185"/><circle cx="572" cy="75" r="6" fill="#fbbf24"/><circle cx="594" cy="75" r="6" fill="#ff7b72"/><text x="1084" y="81" text-anchor="end" fill="#8b949e" font-size="12">profile.sh</text>
+    <line x1="543" y1="101" x2="1114" y2="101" stroke="#30363d"/>
+    <text x="554" y="140" fill="#ff7b72" font-size="14">muhammad@github</text><text x="694" y="140" fill="#8b949e" font-size="14">:</text><text x="707" y="140" fill="#ffa198" font-size="14">~</text><text x="722" y="140" fill="#f8fafc" font-size="14">$ whoami</text>
     <text x="554" y="186" fill="#f8fafc" font-size="30" font-weight="700">Muhammad Abdullah</text>
-    <text class="role role-1" x="554" y="220" fill="#22d3ee" font-size="17">Junior Data Analyst</text>
-    <text class="role role-2" x="554" y="220" fill="#22d3ee" font-size="17">AI / ML Developer</text>
-    <text class="role role-3" x="554" y="220" fill="#22d3ee" font-size="17">Document Intelligence Builder</text>
-    <rect class="cursor" x="827" y="205" width="9" height="19" rx="2" fill="#22d3ee"/>
+    <text class="role role-1" x="554" y="220" fill="#ffa198" font-size="17">Junior Data Analyst</text>
+    <text class="role role-2" x="554" y="220" fill="#ffa198" font-size="17">AI / ML Developer</text>
+    <text class="role role-3" x="554" y="220" fill="#ffa198" font-size="17">Document Intelligence Builder</text>
+    <rect class="cursor" x="827" y="205" width="9" height="19" rx="2" fill="#ffa198"/>
     <g class="info i1"><text x="554" y="266" class="label">ROLE</text><text x="686" y="266" class="value">Junior Data Analyst | AI/ML Developer</text></g>
     <g class="info i2"><text x="554" y="303" class="label">LOCATION</text><text x="686" y="303" class="value">Karachi, Pakistan</text></g>
     <g class="info i3"><text x="554" y="340" class="label">FOCUS</text><text x="686" y="340" class="value" font-size="14">AI, Machine Learning, Automation and Full Stack</text></g>
@@ -128,7 +128,7 @@
 <g class="chip" style="animation-delay:0.84s"><rect x="746" y="486" width="96" height="34" rx="17"/><circle cx="763" cy="503" r="4"/><text x="775" y="508">Docker</text></g>
 <g class="chip" style="animation-delay:0.96s"><rect x="854" y="486" width="108" height="34" rx="17"/><circle cx="871" cy="503" r="4"/><text x="883" y="508">Power BI</text></g>
 <g class="chip" style="animation-delay:1.08s"><rect x="974" y="486" width="70" height="34" rx="17"/><circle cx="991" cy="503" r="4"/><text x="1003" y="508">n8n</text></g>
-    <text x="554" y="548" fill="#94a3b8" font-size="12">abdullahdev.work</text><text x="1110" y="548" text-anchor="end" fill="#94a3b8" font-size="12">abdxllxh2002@gmail.com</text>
+    <text x="554" y="548" fill="#8b949e" font-size="12">abdullahdev.work</text><text x="1110" y="548" text-anchor="end" fill="#8b949e" font-size="12">abdxllxh2002@gmail.com</text>
   </g>
   <rect class="scan" x="43" y="118" width="450" height="2" fill="url(#accentGradient)" opacity=".36" filter="url(#glow)"/>
 </svg>

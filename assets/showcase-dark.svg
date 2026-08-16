@@ -2,33 +2,12 @@
   <title id="showcaseTitle">Core Capabilities and Selected Projects Showcase</title>
   <desc id="showcaseDesc">Animated architecture, core capabilities, featured AI/ML systems and production toolkit.</desc>
   <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#030712"/>
-      <stop offset=".5" stop-color="#0f172a"/>
-      <stop offset="1" stop-color="#030712"/>
-    </linearGradient>
-    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#8b5cf6"/>
-      <stop offset=".48" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#34d399"/>
-    </linearGradient>
-    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#8b5cf6" stop-opacity=".2"/>
-      <stop offset=".5" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#34d399" stop-opacity=".2"/>
-    </linearGradient>
-    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#111b2e" stop-opacity=".85"/>
-      <stop offset="1" stop-color="#0b1220" stop-opacity=".95"/>
-    </linearGradient>
-    <radialGradient id="glowOrbA">
-      <stop stop-color="#8b5cf6" stop-opacity=".2"/>
-      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowOrbB">
-      <stop stop-color="#22d3ee" stop-opacity=".18"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset=".5" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffa198"/><stop offset=".48" stop-color="#ff7b72"/><stop offset="1" stop-color="#f85149"/></linearGradient>
+    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff7b72" stop-opacity=".2"/><stop offset=".5" stop-color="#f85149"/><stop offset="1" stop-color="#ffa198" stop-opacity=".2"/></linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#161b22" stop-opacity=".95"/><stop offset="1" stop-color="#0d1117" stop-opacity=".95"/></linearGradient>
+    <radialGradient id="glowOrbA"><stop stop-color="#ff7b72" stop-opacity=".18"/><stop offset="1" stop-color="#ff7b72" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowOrbB"><stop stop-color="#f85149" stop-opacity=".15"/><stop offset="1" stop-color="#f85149" stop-opacity="0"/></radialGradient>
     <filter id="boxShadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#020617" flood-opacity=".4"/>
     </filter>
@@ -43,11 +22,11 @@
   </defs>
   <style>
     text { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,monospace; }
-    .head-label { fill:#94a3b8; font-size:12px; font-weight:600; letter-spacing:1.8px; }
+    .head-label { fill:#8b949e; font-size:12px; font-weight:600; letter-spacing:1.8px; }
     .section-title { fill:#f8fafc; font-size:18px; font-weight:700; }
-    .proj-title { fill:#22d3ee; font-size:15px; font-weight:700; }
+    .proj-title { fill:#ff7b72; font-size:15px; font-weight:700; }
     .proj-desc { fill:#cbd5e1; font-size:12.5px; font-weight:400; }
-    .proj-stack { fill:#94a3b8; font-size:11.5px; font-weight:500; }
+    .proj-stack { fill:#8b949e; font-size:11.5px; font-weight:500; }
     .core-item { fill:#f1f5f9; font-size:13px; font-weight:500; }
     .tag-text { fill:#f8fafc; font-size:11px; font-weight:600; }
     .edge-anim { stroke-dasharray:260 2200; animation: edgeOrbit 8s linear infinite; }
@@ -71,118 +50,118 @@
   </g>
 
   <!-- Outer Frame -->
-  <rect x="10" y="10" width="1160" height="820" rx="30" fill="none" stroke="#26334a" stroke-width="2"/>
+  <rect x="10" y="10" width="1160" height="820" rx="30" fill="none" stroke="#30363d" stroke-width="2"/>
   <rect class="edge-anim" x="11" y="11" width="1158" height="818" rx="29" fill="none" stroke="url(#edgeGrad)" stroke-width="2"/>
 
   <!-- Header Bar -->
   <g>
     <circle cx="48" cy="46" r="5.5" fill="#fb7185"/>
     <circle cx="68" cy="46" r="5.5" fill="#fbbf24"/>
-    <circle cx="88" cy="46" r="5.5" fill="#34d399"/>
+    <circle cx="88" cy="46" r="5.5" fill="#ff7b72"/>
     <text x="112" y="50" class="head-label">CAPABILITIES // 02</text>
     <text x="1132" y="50" text-anchor="end" class="head-label">SYSTEM_ARCHITECTURE.JSON</text>
-    <line x1="36" y1="72" x2="1144" y2="72" stroke="#26334a"/>
+    <line x1="36" y1="72" x2="1144" y2="72" stroke="#30363d"/>
   </g>
 
   <!-- LEFT COLUMN: Core Areas & Verified Signals (Width: 440) -->
   <g transform="translate(36, 92)" filter="url(#boxShadow)">
-    <rect width="420" height="570" rx="20" fill="url(#cardGrad)" stroke="#26334a"/>
+    <rect width="420" height="570" rx="20" fill="url(#cardGrad)" stroke="#30363d"/>
     
     <!-- Header -->
     <text x="24" y="38" class="section-title">Core Engineering Areas</text>
-    <text x="24" y="58" fill="#94a3b8" font-size="12">End-to-end development &amp; intelligence</text>
-    <line x1="24" y1="74" x2="396" y2="74" stroke="#26334a"/>
+    <text x="24" y="58" fill="#8b949e" font-size="12">End-to-end development &amp; intelligence</text>
+    <line x1="24" y1="74" x2="396" y2="74" stroke="#30363d"/>
 
     <!-- Core Items -->
     <!-- Item 1 -->
     <g transform="translate(24, 94)">
-      <circle cx="6" cy="6" r="4" fill="#22d3ee" class="pulseDot"/>
+      <circle cx="6" cy="6" r="4" fill="#ffa198" class="pulseDot"/>
       <text x="20" y="10" class="core-item">AI/ML Pipelines &amp; Predictive Systems</text>
-      <text x="20" y="28" fill="#94a3b8" font-size="11.5">End-to-end model training, evaluation &amp; inference</text>
+      <text x="20" y="28" fill="#8b949e" font-size="11.5">End-to-end model training, evaluation &amp; inference</text>
     </g>
 
     <!-- Item 2 -->
     <g transform="translate(24, 150)">
-      <circle cx="6" cy="6" r="4" fill="#8b5cf6" class="pulseDot"/>
+      <circle cx="6" cy="6" r="4" fill="#f85149" class="pulseDot"/>
       <text x="20" y="10" class="core-item">AI Agents, RAG &amp; Autonomous Workflows</text>
-      <text x="20" y="28" fill="#94a3b8" font-size="11.5">Tool-calling agents, vector indexing &amp; n8n flows</text>
+      <text x="20" y="28" fill="#8b949e" font-size="11.5">Tool-calling agents, vector indexing &amp; n8n flows</text>
     </g>
 
     <!-- Item 3 -->
     <g transform="translate(24, 206)">
-      <circle cx="6" cy="6" r="4" fill="#34d399" class="pulseDot"/>
+      <circle cx="6" cy="6" r="4" fill="#ff7b72" class="pulseDot"/>
       <text x="20" y="10" class="core-item">Data Analytics &amp; Anomaly Detection</text>
-      <text x="20" y="28" fill="#94a3b8" font-size="11.5">Statistical scoring, data audits &amp; automated BI</text>
+      <text x="20" y="28" fill="#8b949e" font-size="11.5">Statistical scoring, data audits &amp; automated BI</text>
     </g>
 
     <!-- Item 4 -->
     <g transform="translate(24, 262)">
-      <circle cx="6" cy="6" r="4" fill="#38bdf8" class="pulseDot"/>
+      <circle cx="6" cy="6" r="4" fill="#ffa198" class="pulseDot"/>
       <text x="20" y="10" class="core-item">Full-Stack AI Applications &amp; APIs</text>
-      <text x="20" y="28" fill="#94a3b8" font-size="11.5">Next.js/React frontends + high-throughput FastAPI</text>
+      <text x="20" y="28" fill="#8b949e" font-size="11.5">Next.js/React frontends + high-throughput FastAPI</text>
     </g>
 
     <!-- Item 5 -->
     <g transform="translate(24, 318)">
-      <circle cx="6" cy="6" r="4" fill="#a78bfa" class="pulseDot"/>
+      <circle cx="6" cy="6" r="4" fill="#ff7b72" class="pulseDot"/>
       <text x="20" y="10" class="core-item">MLOps, Docker &amp; Model Deployment</text>
-      <text x="20" y="28" fill="#94a3b8" font-size="11.5">Containerization, CI/CD pipelines &amp; scaling</text>
+      <text x="20" y="28" fill="#8b949e" font-size="11.5">Containerization, CI/CD pipelines &amp; scaling</text>
     </g>
 
-    <line x1="24" y1="372" x2="396" y2="372" stroke="#26334a"/>
+    <line x1="24" y1="372" x2="396" y2="372" stroke="#30363d"/>
 
     <!-- Hackathons & Certifications Box -->
     <g transform="translate(24, 392)">
-      <rect width="372" height="66" rx="12" fill="#0b1220" stroke="#26334a"/>
-      <text x="14" y="25" fill="#34d399" font-size="11" font-weight="700">COMPETITIONS &amp; HACKATHONS</text>
+      <rect width="372" height="66" rx="12" fill="#161b22" stroke="#30363d"/>
+      <text x="14" y="25" fill="#ff7b72" font-size="11" font-weight="700">COMPETITIONS &amp; HACKATHONS</text>
       <text x="14" y="46" fill="#cbd5e1" font-size="12">IBM • NVIDIA • AMD Developer Challenges</text>
     </g>
 
     <g transform="translate(24, 474)">
-      <rect width="372" height="74" rx="12" fill="#0b1220" stroke="#26334a"/>
-      <text x="14" y="24" fill="#22d3ee" font-size="11" font-weight="700">VERIFIED CERTIFICATIONS</text>
+      <rect width="372" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+      <text x="14" y="24" fill="#ffa198" font-size="11" font-weight="700">VERIFIED CERTIFICATIONS</text>
       <text x="14" y="44" fill="#cbd5e1" font-size="12">Google Data Analytics &amp; Advanced Analytics</text>
-      <text x="14" y="62" fill="#94a3b8" font-size="11">AI Automation &amp; Statistical Modeling</text>
+      <text x="14" y="62" fill="#8b949e" font-size="11">AI Automation &amp; Statistical Modeling</text>
     </g>
   </g>
 
   <!-- RIGHT COLUMN: Featured Systems Matrix (Width: 652) -->
   <g transform="translate(480, 92)" filter="url(#boxShadow)">
-    <rect width="664" height="570" rx="20" fill="url(#cardGrad)" stroke="#26334a"/>
+    <rect width="664" height="570" rx="20" fill="url(#cardGrad)" stroke="#30363d"/>
 
     <text x="24" y="38" class="section-title">Selected Production Systems</text>
-    <text x="24" y="58" fill="#94a3b8" font-size="12">High-impact applied AI, vision &amp; automated analytics</text>
-    <line x1="24" y1="74" x2="640" y2="74" stroke="#26334a"/>
+    <text x="24" y="58" fill="#8b949e" font-size="12">High-impact applied AI, vision &amp; automated analytics</text>
+    <line x1="24" y1="74" x2="640" y2="74" stroke="#30363d"/>
 
     <!-- Project 1: QUANTRA -->
     <g transform="translate(24, 90)">
-      <rect width="616" height="84" rx="12" fill="#0b1220" stroke="#26334a"/>
-      <circle cx="16" cy="22" r="4.5" fill="#34d399" filter="url(#neonGlow)"/>
+      <rect width="616" height="84" rx="12" fill="#161b22" stroke="#30363d"/>
+      <circle cx="16" cy="22" r="4.5" fill="#ff7b72" filter="url(#neonGlow)"/>
       <text x="28" y="26" class="proj-title">QUANTRA</text>
-      <rect x="105" y="13" width="70" height="18" rx="9" fill="#1e293b"/>
-      <text x="140" y="26" text-anchor="middle" fill="#34d399" font-size="9.5" font-weight="700">ACTIVE</text>
+      <rect x="105" y="13" width="70" height="18" rx="9" fill="#21262d"/>
+      <text x="140" y="26" text-anchor="middle" fill="#ff7b72" font-size="9.5" font-weight="700">ACTIVE</text>
       <text x="16" y="48" class="proj-desc">AI copilot &amp; analytics platform: anomaly detection, health scoring &amp; NLQ</text>
       <text x="16" y="68" class="proj-stack">Stack: Python • FastAPI • Next.js • TypeScript • Scikit-learn • Docker</text>
     </g>
 
     <!-- Project 2: DOCUMIND -->
     <g transform="translate(24, 184)">
-      <rect width="616" height="84" rx="12" fill="#0b1220" stroke="#26334a"/>
-      <circle cx="16" cy="22" r="4.5" fill="#22d3ee"/>
+      <rect width="616" height="84" rx="12" fill="#161b22" stroke="#30363d"/>
+      <circle cx="16" cy="22" r="4.5" fill="#ffa198"/>
       <text x="28" y="26" class="proj-title">DOCUMIND</text>
-      <rect x="115" y="13" width="84" height="18" rx="9" fill="#1e293b"/>
-      <text x="157" y="26" text-anchor="middle" fill="#22d3ee" font-size="9.5" font-weight="700">INTELLIGENCE</text>
+      <rect x="115" y="13" width="84" height="18" rx="9" fill="#21262d"/>
+      <text x="157" y="26" text-anchor="middle" fill="#ffa198" font-size="9.5" font-weight="700">INTELLIGENCE</text>
       <text x="16" y="48" class="proj-desc">Converts complex scanned documents into structured, searchable data</text>
       <text x="16" y="68" class="proj-stack">Stack: PyTorch • OpenCV • OCR • FAISS • FastAPI • Next.js</text>
     </g>
 
     <!-- Project 3: PRODUX -->
     <g transform="translate(24, 278)">
-      <rect width="616" height="84" rx="12" fill="#0b1220" stroke="#26334a"/>
-      <circle cx="16" cy="22" r="4.5" fill="#8b5cf6"/>
+      <rect width="616" height="84" rx="12" fill="#161b22" stroke="#30363d"/>
+      <circle cx="16" cy="22" r="4.5" fill="#f85149"/>
       <text x="28" y="26" class="proj-title">PRODUX</text>
-      <rect x="98" y="13" width="88" height="18" rx="9" fill="#1e293b"/>
-      <text x="142" y="26" text-anchor="middle" fill="#a78bfa" font-size="9.5" font-weight="700">COMPUTER VISION</text>
+      <rect x="98" y="13" width="88" height="18" rx="9" fill="#21262d"/>
+      <text x="142" y="26" text-anchor="middle" fill="#ff7b72" font-size="9.5" font-weight="700">COMPUTER VISION</text>
       <text x="16" y="48" class="proj-desc">Real-time traffic perception with detection, tracking &amp; movement analytics</text>
       <text x="16" y="68" class="proj-stack">Stack: Python • YOLOv8 • OpenCV • Streamlit</text>
     </g>
@@ -191,59 +170,59 @@
     <g transform="translate(24, 372)">
       <!-- WlaaS -->
       <g>
-        <rect width="300" height="92" rx="12" fill="#0b1220" stroke="#26334a"/>
+        <rect width="300" height="92" rx="12" fill="#161b22" stroke="#30363d"/>
         <text x="14" y="24" class="proj-title">WlaaS</text>
         <text x="14" y="46" class="proj-desc">Weather intel + multi-agent reasoning</text>
-        <text x="14" y="66" class="proj-desc" fill="#94a3b8" font-size="11">FastAPI • React • n8n • Docker</text>
+        <text x="14" y="66" class="proj-desc" fill="#8b949e" font-size="11">FastAPI • React • n8n • Docker</text>
       </g>
       <!-- Churn Predictor -->
       <g transform="translate(316, 0)">
-        <rect width="300" height="92" rx="12" fill="#0b1220" stroke="#26334a"/>
+        <rect width="300" height="92" rx="12" fill="#161b22" stroke="#30363d"/>
         <text x="14" y="24" class="proj-title">Customer Churn</text>
         <text x="14" y="46" class="proj-desc">Practical customer-risk forecasting</text>
-        <text x="14" y="66" class="proj-desc" fill="#94a3b8" font-size="11">Scikit-learn • XGBoost • Python</text>
+        <text x="14" y="66" class="proj-desc" fill="#8b949e" font-size="11">Scikit-learn • XGBoost • Python</text>
       </g>
     </g>
 
     <!-- Client Solutions Banner -->
     <g transform="translate(24, 478)">
-      <rect width="616" height="70" rx="12" fill="#0f172a" stroke="#26334a"/>
-      <circle cx="20" cy="35" r="4.5" fill="#34d399" filter="url(#neonGlow)"/>
+      <rect width="616" height="70" rx="12" fill="#161b22" stroke="#30363d"/>
+      <circle cx="20" cy="35" r="4.5" fill="#ff7b72" filter="url(#neonGlow)"/>
       <text x="36" y="32" fill="#f8fafc" font-size="12.5" font-weight="700">AVAILABLE FOR CLIENT SOLUTIONS &amp; ENGINEERING ROLES</text>
-      <text x="36" y="52" fill="#94a3b8" font-size="11.5">Custom AI pipelines • Automated BI workflows • Scalable full-stack systems</text>
+      <text x="36" y="52" fill="#8b949e" font-size="11.5">Custom AI pipelines • Automated BI workflows • Scalable full-stack systems</text>
     </g>
   </g>
 
   <!-- BOTTOM BAR: Toolkit Matrix (Width: 1108) -->
   <g transform="translate(36, 680)" filter="url(#boxShadow)">
-    <rect width="1108" height="124" rx="18" fill="url(#cardGrad)" stroke="#26334a"/>
+    <rect width="1108" height="124" rx="18" fill="url(#cardGrad)" stroke="#30363d"/>
     <text x="24" y="30" class="head-label">ENGINEERING TOOLKIT // STACK</text>
     
     <!-- Pills Row 1 -->
     <g transform="translate(24, 44)">
-      <g class="pill" style="animation-delay:0s"><rect width="84" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#34d399"/><text x="26" y="18" class="tag-text">Python</text></g>
-      <g class="pill" transform="translate(94, 0)" style="animation-delay:0.1s"><rect width="90" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#34d399"/><text x="26" y="18" class="tag-text">PyTorch</text></g>
-      <g class="pill" transform="translate(194, 0)" style="animation-delay:0.2s"><rect width="114" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#34d399"/><text x="26" y="18" class="tag-text">Scikit-learn</text></g>
-      <g class="pill" transform="translate(318, 0)" style="animation-delay:0.3s"><rect width="90" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#34d399"/><text x="26" y="18" class="tag-text">XGBoost</text></g>
-      <g class="pill" transform="translate(418, 0)" style="animation-delay:0.4s"><rect width="86" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#34d399"/><text x="26" y="18" class="tag-text">OpenCV</text></g>
-      <g class="pill" transform="translate(514, 0)" style="animation-delay:0.5s"><rect width="86" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#34d399"/><text x="26" y="18" class="tag-text">YOLOv8</text></g>
-      <g class="pill" transform="translate(610, 0)" style="animation-delay:0.6s"><rect width="76" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#34d399"/><text x="26" y="18" class="tag-text">FAISS</text></g>
-      <g class="pill" transform="translate(696, 0)" style="animation-delay:0.7s"><rect width="90" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#34d399"/><text x="26" y="18" class="tag-text">FastAPI</text></g>
-      <g class="pill" transform="translate(796, 0)" style="animation-delay:0.8s"><rect width="86" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#34d399"/><text x="26" y="18" class="tag-text">Next.js</text></g>
-      <g class="pill" transform="translate(892, 0)" style="animation-delay:0.9s"><rect width="104" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#34d399"/><text x="26" y="18" class="tag-text">TypeScript</text></g>
-      <g class="pill" transform="translate(1006, 0)" style="animation-delay:1.0s"><rect width="74" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#34d399"/><text x="26" y="18" class="tag-text">React</text></g>
+      <g class="pill" style="animation-delay:0s"><rect width="84" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ff7b72"/><text x="26" y="18" class="tag-text">Python</text></g>
+      <g class="pill" transform="translate(94, 0)" style="animation-delay:0.1s"><rect width="90" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ff7b72"/><text x="26" y="18" class="tag-text">PyTorch</text></g>
+      <g class="pill" transform="translate(194, 0)" style="animation-delay:0.2s"><rect width="114" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ff7b72"/><text x="26" y="18" class="tag-text">Scikit-learn</text></g>
+      <g class="pill" transform="translate(318, 0)" style="animation-delay:0.3s"><rect width="90" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ff7b72"/><text x="26" y="18" class="tag-text">XGBoost</text></g>
+      <g class="pill" transform="translate(418, 0)" style="animation-delay:0.4s"><rect width="86" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ff7b72"/><text x="26" y="18" class="tag-text">OpenCV</text></g>
+      <g class="pill" transform="translate(514, 0)" style="animation-delay:0.5s"><rect width="86" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ff7b72"/><text x="26" y="18" class="tag-text">YOLOv8</text></g>
+      <g class="pill" transform="translate(610, 0)" style="animation-delay:0.6s"><rect width="76" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ff7b72"/><text x="26" y="18" class="tag-text">FAISS</text></g>
+      <g class="pill" transform="translate(696, 0)" style="animation-delay:0.7s"><rect width="90" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ff7b72"/><text x="26" y="18" class="tag-text">FastAPI</text></g>
+      <g class="pill" transform="translate(796, 0)" style="animation-delay:0.8s"><rect width="86" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ff7b72"/><text x="26" y="18" class="tag-text">Next.js</text></g>
+      <g class="pill" transform="translate(892, 0)" style="animation-delay:0.9s"><rect width="104" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ff7b72"/><text x="26" y="18" class="tag-text">TypeScript</text></g>
+      <g class="pill" transform="translate(1006, 0)" style="animation-delay:1.0s"><rect width="74" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ff7b72"/><text x="26" y="18" class="tag-text">React</text></g>
     </g>
 
     <!-- Pills Row 2 -->
     <g transform="translate(24, 82)">
-      <g class="pill" style="animation-delay:1.1s"><rect width="84" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#22d3ee"/><text x="26" y="18" class="tag-text">Docker</text></g>
-      <g class="pill" transform="translate(94, 0)" style="animation-delay:1.2s"><rect width="110" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#22d3ee"/><text x="26" y="18" class="tag-text">PostgreSQL</text></g>
-      <g class="pill" transform="translate(214, 0)" style="animation-delay:1.3s"><rect width="64" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#22d3ee"/><text x="26" y="18" class="tag-text">SQL</text></g>
-      <g class="pill" transform="translate(288, 0)" style="animation-delay:1.4s"><rect width="84" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#22d3ee"/><text x="26" y="18" class="tag-text">MLflow</text></g>
-      <g class="pill" transform="translate(382, 0)" style="animation-delay:1.5s"><rect width="102" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#22d3ee"/><text x="26" y="18" class="tag-text">LangChain</text></g>
-      <g class="pill" transform="translate(494, 0)" style="animation-delay:1.6s"><rect width="64" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#22d3ee"/><text x="26" y="18" class="tag-text">n8n</text></g>
-      <g class="pill" transform="translate(568, 0)" style="animation-delay:1.7s"><rect width="94" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#22d3ee"/><text x="26" y="18" class="tag-text">Power BI</text></g>
-      <g class="pill" transform="translate(672, 0)" style="animation-delay:1.8s"><rect width="88" height="28" rx="14" fill="#111b2e" stroke="#26334a"/><circle cx="14" cy="14" r="3.5" fill="#22d3ee"/><text x="26" y="18" class="tag-text">Tableau</text></g>
+      <g class="pill" style="animation-delay:1.1s"><rect width="84" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ffa198"/><text x="26" y="18" class="tag-text">Docker</text></g>
+      <g class="pill" transform="translate(94, 0)" style="animation-delay:1.2s"><rect width="110" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ffa198"/><text x="26" y="18" class="tag-text">PostgreSQL</text></g>
+      <g class="pill" transform="translate(214, 0)" style="animation-delay:1.3s"><rect width="64" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ffa198"/><text x="26" y="18" class="tag-text">SQL</text></g>
+      <g class="pill" transform="translate(288, 0)" style="animation-delay:1.4s"><rect width="84" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ffa198"/><text x="26" y="18" class="tag-text">MLflow</text></g>
+      <g class="pill" transform="translate(382, 0)" style="animation-delay:1.5s"><rect width="102" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ffa198"/><text x="26" y="18" class="tag-text">LangChain</text></g>
+      <g class="pill" transform="translate(494, 0)" style="animation-delay:1.6s"><rect width="64" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ffa198"/><text x="26" y="18" class="tag-text">n8n</text></g>
+      <g class="pill" transform="translate(568, 0)" style="animation-delay:1.7s"><rect width="94" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ffa198"/><text x="26" y="18" class="tag-text">Power BI</text></g>
+      <g class="pill" transform="translate(672, 0)" style="animation-delay:1.8s"><rect width="88" height="28" rx="14" fill="#21262d" stroke="#30363d"/><circle cx="14" cy="14" r="3.5" fill="#ffa198"/><text x="26" y="18" class="tag-text">Tableau</text></g>
     </g>
   </g>
 </svg>

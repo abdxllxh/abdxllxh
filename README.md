@@ -7,9 +7,9 @@
 <br>
 
 <div align="center">
-  <a href="https://abdullahdev.work"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white"></a>
-  <a href="https://linkedin.com/in/mohammad-abdullah-25ba1721b"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:abdxllxh2002@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-059669?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://abdullahdev.work"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-161B22?style=for-the-badge&logo=vercel&logoColor=FF7B72"></a>
+  <a href="https://linkedin.com/in/mohammad-abdullah-25ba1721b"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-F85149?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:abdxllxh2002@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-E11D48?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </div>
 
 <br>
