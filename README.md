@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/hero-dark.svg" width="100%" alt="Muhammad Abdullah - Fullstack WebDev , AI Automation & ML Engineer">
+  <img src="assets/hero-dark.svg?v=2026.08.v5" width="100%" alt="Muhammad Abdullah - Fullstack WebDev , AI Automation & ML Engineer">
 </div>
 
 <br>
@@ -13,13 +13,13 @@
 <br>
 
 <div align="center">
-  <img src="assets/showcase-dark.svg" width="100%" alt="System Architecture, Projects & Core Capabilities Showcase">
+  <img src="assets/showcase-dark.svg?v=2026.08.v5" width="100%" alt="System Architecture, Projects & Core Capabilities Showcase">
 </div>
 
 <br>
 
 <div align="center">
-  <img src="assets/rocket-dark.svg" width="100%" alt="Animated rocket traveling across Muhammad Abdullah's contribution map">
+  <img src="assets/rocket-dark.svg?v=2026.08.v5" width="100%" alt="Animated rocket traveling across Muhammad Abdullah's contribution map">
 </div>
 
 <div align="center"><sub>Karachi, Pakistan · Building reliable data and AI systems</sub></div>
