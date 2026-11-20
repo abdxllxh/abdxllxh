@@ -1,32 +1,25 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=2026.11.v1">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg?v=2026.11.v1">
-    <img src="assets/hero-dark.svg?v=2026.11.v1" width="100%" alt="Muhammad Abdullah — Junior Data Analyst | AI/ML Developer">
-  </picture>
+  <img src="assets/hero-dark.svg?v=2026.08.v5" width="100%" alt="Muhammad Abdullah - Fullstack WebDev , AI Automation & ML Engineer">
 </div>
 
-<p align="center">
-  <a href="https://abdullahdev.work"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-161B22?style=flat-square&logo=vercel&logoColor=58A6FF&labelColor=0D1117"></a>
-  <a href="https://linkedin.com/in/mohammad-abdullah-25ba1721b"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-161B22?style=flat-square&logo=linkedin&logoColor=58A6FF&labelColor=0D1117"></a>
-  <a href="mailto:mohammadabdullah12345@live.com"><img alt="Email" src="https://img.shields.io/badge/Email-161B22?style=flat-square&logo=gmail&logoColor=3FB950&labelColor=0D1117"></a>
-</p>
-
-## What I build
-
-I work across data analytics, machine learning, document intelligence, computer vision, and automation.
-
-- Data analytics and applied machine learning
-- Document intelligence and OCR systems
-- Computer vision and visual analytics
-- Automation and production APIs
+<br>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/rocket-dark.svg?v=2026.11.v1">
-    <source media="(prefers-color-scheme: light)" srcset="assets/rocket-light.svg?v=2026.11.v1">
-    <img src="assets/rocket-dark.svg?v=2026.11.v1" width="100%" alt="GitHub contribution map for Muhammad Abdullah">
-  </picture>
+  <a href="https://abdullahdev.work"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-161B22?style=for-the-badge&logo=vercel&logoColor=FF7B72"></a>
+  <a href="https://linkedin.com/in/mohammad-abdullah-25ba1721b"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-F85149?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:abdxllxh2002@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-E11D48?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </div>
 
-<p align="center"><sub>Karachi, Pakistan · Building reliable data and AI systems</sub></p>
+<br>
+
+<div align="center">
+  <img src="assets/showcase-dark.svg?v=2026.08.v5" width="100%" alt="System Architecture, Projects & Core Capabilities Showcase">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="assets/rocket-dark.svg?v=2026.08.v5" width="100%" alt="Animated rocket traveling across Muhammad Abdullah's contribution map">
+</div>
+
+<div align="center"><sub>Karachi, Pakistan · Building reliable data and AI systems</sub></div>
